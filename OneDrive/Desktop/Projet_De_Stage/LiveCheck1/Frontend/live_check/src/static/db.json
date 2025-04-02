@@ -1,0 +1,457 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "team": "bcs",
+      "username": "administrator",
+      "trigramme": "adm",
+      "email": "administrator@antemeta.mea",
+      "password_hash": "XBHBV17JDGD78BDJGHGD77",
+      "id_admin": true,
+      "created_at": "2025-01-01 22:56:12"
+    },
+    {
+      "user_id": 2,
+      "team": "bcs_escalade",
+      "username": "mahmoud.amane",
+      "trigramme": "amm",
+      "email": "amm@antemeta.mea",
+      "password_hash": "1234",
+      "id_admin": true,
+      "created_at": "2025-01-01 22:56:12"
+    },
+    {
+      "user_id": 3,
+      "team": "bcs_escalade",
+      "username": "nermine.alaoui",
+      "trigramme": "nea",
+      "email": "nea@antemeta.mea",
+      "password_hash": "1234",
+      "id_admin": true,
+      "created_at": "2025-01-01 22:56:12"
+    },
+    {
+      "user_id": 4,
+      "team": "24/7",
+      "username": "hafid.mzayni",
+      "trigramme": "ham",
+      "email": "ham@antemeta.mea",
+      "password_hash": "XBHBV17JDGD78BDJGHGD77",
+      "id_admin": false,
+      "created_at": "2025-01-01 22:56:12"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": 1,
+      "name": "alten",
+      "trigramme": "alt"
+    },
+    {
+      "group_id": 2,
+      "name": "groupe beaumanoir",
+      "trigramme": "gbm"
+    },
+    {
+      "group_id": 3,
+      "name": "societe grand paris",
+      "trigramme": "sgp"
+    }
+  ],
+  "servers": [
+    {
+      "server_id": 1,
+      "group_id": 1,
+      "name": "srvaltz02mst01",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 2,
+      "group_id": 1,
+      "name": "srvaltz01mst01",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 3,
+      "group_id": 1,
+      "name": "fraltz02msdp01",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 4,
+      "group_id": 1,
+      "name": "fraltz02msdp02",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 5,
+      "group_id": 1,
+      "name": "fraltz02msdp03",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 6,
+      "group_id": 1,
+      "name": "fraltz01msdp01",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 7,
+      "group_id": 1,
+      "name": "fraltz01msdp02",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 8,
+      "group_id": 2,
+      "name": "smamstnbulm3",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 9,
+      "group_id": 2,
+      "name": "smamstnbul2",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 10,
+      "group_id": 2,
+      "name": "istmsdpl1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 11,
+      "group_id": 2,
+      "name": "FRCLOGMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 12,
+      "group_id": 2,
+      "name": "SRVMSDP02BLOPAR",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 13,
+      "group_id": 2,
+      "name": "SRVMSDP01POCLOG",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 14,
+      "group_id": 2,
+      "name": "SRVMSDP01BLOPAR",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 15,
+      "group_id": 2,
+      "name": "SRVMSDP01WASHAL",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 16,
+      "group_id": 2,
+      "name": "BARMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 17,
+      "group_id": 2,
+      "name": "DELMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 18,
+      "group_id": 2,
+      "name": "DHAMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 19,
+      "group_id": 2,
+      "name": "SHQMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 20,
+      "group_id": 2,
+      "name": "SINMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 21,
+      "group_id": 2,
+      "name": "CASMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 22,
+      "group_id": 2,
+      "name": "GENMSDPL1",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 23,
+      "group_id": 2,
+      "name": "FRGBMMSDPL6",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 24,
+      "group_id": 2,
+      "name": "FRGBMMSDPL7",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 25,
+      "group_id": 2,
+      "name": "FRGBMMSDPL8",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 26,
+      "group_id": 2,
+      "name": "FRGBMMSDPL11",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 27,
+      "group_id": 2,
+      "name": "FRGBMMSDPL12",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 28,
+      "group_id": 3,
+      "name": "srvsgpz02mas001",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 29,
+      "group_id": 3,
+      "name": "srvsgpmas001",
+      "role": "master",
+      "dv_status": null,
+      "dp_status": null
+    },
+    {
+      "server_id": 30,
+      "group_id": 3,
+      "name": "frsgpz02msdp002",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 31,
+      "group_id": 3,
+      "name": "frsgpz01msdp001",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 32,
+      "group_id": 3,
+      "name": "frsgpz02msdp001",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 33,
+      "group_id": 3,
+      "name": "frsgpz03med001",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 34,
+      "group_id": 3,
+      "name": "frsgpz03med002",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 35,
+      "group_id": 3,
+      "name": "frsgpz04med001",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    },
+    {
+      "server_id": 36,
+      "group_id": 3,
+      "name": "frsgpz04med002",
+      "role": "media",
+      "dv_status": "up",
+      "dp_status": "up"
+    }
+  ],
+  "replications": [
+    {
+      "replication_id": 1,
+      "server_id": 1,
+      "backlog": 200,
+      "oldest_backup": "2025-02-20 10:00:00",
+      "status": true
+    },
+    {
+      "replication_id": 2,
+      "server_id": 2,
+      "backlog": 50,
+      "oldest_backup": "2025-02-22 22:00:00",
+      "status": true
+    },
+    {
+      "replication_id": 3,
+      "server_id": 10,
+      "backlog": 30,
+      "oldest_backup": "2025-02-22 22:00:00",
+      "status": true
+    },
+    {
+      "replication_id": 4,
+      "server_id": 8,
+      "backlog": 12,
+      "oldest_backup": "2025-02-22 22:00:00",
+      "status": true
+    },
+    {
+      "replication_id": 5,
+      "server_id": 28,
+      "backlog": 33,
+      "oldest_backup": "2025-02-22 22:00:00",
+      "status": true
+    },
+    {
+      "replication_id": 6,
+      "server_id": 29,
+      "backlog": 4,
+      "oldest_backup": "2025-02-22 22:00:00",
+      "status": true
+    }
+  ],
+  "backup_details": [
+    {
+      "id": 1,
+      "server_id": 1,
+      "group_id": 1,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 302,
+      "in_progress": 18,
+      "failed": 0,
+      "queud": 3
+    },
+    {
+      "id": 2,
+      "server_id": 2,
+      "group_id": 1,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 48,
+      "in_progress": 0,
+      "failed": 0,
+      "queud": 0
+    },
+    {
+      "id": 3,
+      "group_id": 1,
+      "server_id": 8,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 474,
+      "in_progress": 8,
+      "failed": 0,
+      "queud": 0
+    },
+    {
+      "id": 4,
+      "group_id": 1,
+      "server_id": 10,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 481,
+      "in_progress": 3,
+      "failed": 12,
+      "queud": 0
+    },
+    {
+      "id": 5,
+      "group_id": 2,
+      "server_id": 22,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 481,
+      "in_progress": 3,
+      "failed": 12,
+      "queud": 0
+    },
+    {
+      "id": 6,
+      "group_id": 3,
+      "server_id": 29,
+      "check_time": "2025-03-03 21:00:00",
+      "success": 222,
+      "in_progress": 3,
+      "failed": 12,
+      "queud": 0
+    }
+  ]
+}
