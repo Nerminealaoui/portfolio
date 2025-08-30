@@ -6,7 +6,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative w-screen h-screen bg-animated text-white flex flex-col md:flex-row items-center justify-center px-6 md:px-16 pt-24"
-      style={{ margin: 0, padding: 0 }}
+      // style={{ margin: 0, padding: 0 }}
     >
       <motion.div
         initial={{ opacity: 0, x: -50 }}
